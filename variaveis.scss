@@ -1,0 +1,42 @@
+// CORES
+$cinza-escuro: #58585a;
+$cinza-claro: #cfcfcf;
+$cinza-medium: #9d9c8e;
+$magenta: #620c39;
+$amarelo: #f9be41;
+$azul: #4c8cff;
+
+
+// FONTES
+$fonte: 'Roboto', sans-serif;
+
+//TAMANHOS
+$largura-padrao: 1100px;
+
+// CLASSES GLOBAIS
+.container-centralizado {
+	position: relative;
+	max-width: $largura-padrao;
+	margin: 0 auto;
+	overflow: hidden;
+}
+/*===========================
+CLASSES DE CENTRALIZAÇÃO
+===========================*/
+.centralizar-x {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.centralizar-y {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%); 
+}
+.centralizar-xy {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
